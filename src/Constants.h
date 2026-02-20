@@ -6,16 +6,16 @@ Copyright 2014-2025 ClassiCube | Licensed under BSD-3
 */
 
 #define GAME_MAX_CMDARGS 5
-#define GAME_APP_VER "1.3.8"
+#define GAME_APP_VER "6.7"
 #define GAME_API_VER 1
 
 #if defined CC_BUILD_WEB
-#define GAME_APP_ALT   "ClassiCube 1.3.8 web mobile"
-#define GAME_APP_NAME  "ClassiCube 1.3.8 web"
-#define GAME_APP_TITLE "ClassiCube"
+#define GAME_APP_ALT   "TrollCube 1.3.8 web mobile"
+#define GAME_APP_NAME  "TrollCube 1.3.8 web"
+#define GAME_APP_TITLE "TrollCube"
 #else
-#define GAME_APP_NAME  "ClassiCube 1.3.8"
-#define GAME_APP_TITLE "ClassiCube 1.3.8"
+#define GAME_APP_NAME  "TrollCube"
+#define GAME_APP_TITLE "TrollCube"
 #endif
 
 /* Max number of characters strings can have. */
@@ -76,3 +76,4 @@ enum SKIN_TYPE { SKIN_64x32, SKIN_64x64, SKIN_64x64_SLIM, SKIN_INVALID = 0xF0 };
 
 #define DEFAULT_USERNAME "Singleplayer"
 #endif
+
