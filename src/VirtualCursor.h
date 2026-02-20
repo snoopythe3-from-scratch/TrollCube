@@ -15,9 +15,9 @@ static GfxResourceID  vc_vb;
 
 static void VirtualCursor_Draw(struct Context2D* ctx, int x, int y) {
 	Context2D_Clear(ctx, BITMAPCOLOR_WHITE,
-					x - CURSOR_EXTENT, y - CURSOR_SIZE, CURSOR_EXTENT * 2, CURSOR_SIZE * 3);
+					x - CURSOR_EXTENT, y - CURSOR_SIZE, CURSOR_EXTENT * 4, CURSOR_SIZE * 3);
 	Context2D_Clear(ctx, BITMAPCOLOR_WHITE,
-					x - CURSOR_SIZE, y - CURSOR_EXTENT, CURSOR_SIZE * 3, CURSOR_EXTENT * 2);
+					x - CURSOR_SIZE, y - CURSOR_EXTENT, CURSOR_SIZE * 6, CURSOR_EXTENT * 2);
 }
 
 static void VirtualCursor_Display2D(void) {
